@@ -2,7 +2,7 @@
 
 $packageName= 'jetbrainstoolbox' # arbitrary name for the package, used in messages
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.0.2095.exe' # download url
+$url        = 'https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.1.2143.exe' # download url
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,7 +15,7 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'JetBrains Toolbox*'
-  checksum      = '567864adf507bf9b322af5565bc104372d785f2c341fd2bd5bbf3f2496e8c057'
+  checksum      = '251934f253333e1776d20e1a6255d080dd97fa3fe0a42b7423b1074cf85879cd'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
 
 }
