@@ -2,7 +2,7 @@
 
 $packageName= 'jetbrainstoolbox' # arbitrary name for the package, used in messages
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.2.2259.exe' # download url
+$url        = 'https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.2.2314.exe' # download url
 
 $packageArgs = @{
   packageName   = $packageName
