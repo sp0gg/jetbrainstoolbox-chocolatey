@@ -15,7 +15,7 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 
   softwareName  = 'JetBrains Toolbox*'
-  checksum      = 'd9734c1f43f89813cedbb8238df4f2103d697a7f392c7f9e422a6a37933bc572'
+  checksum      = '0b2272dce68995ca9aec290ce82b119fd26f33aec51e72310f76d64399182945'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
 
 }
